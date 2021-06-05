@@ -1,0 +1,43 @@
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input{
+  padding: 10px ;
+  border: 2px solid black;
+  width: 150px;
+  border-radius: 5px;
+  text-align: left;
+  outline: none;
+  margin-right: 2px;
+}
+
+button{
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: 0 auto;
+  outline: none;
+}
+
+.cards{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: 2px 0;
+}
+.card{
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border: 3px solid black;
+  border-radius:5px;
+  padding: 5px;
+  
+}
